@@ -21,6 +21,7 @@ namespace SiteJson.Controllers
         public IActionResult Index(string slug)
         {
             var pagina = _site.Paginas.FirstOrDefault(x => x.Slug == slug);
+            ViewBag.Layout = _site.Layout;
             return View(pagina);
         }
     }

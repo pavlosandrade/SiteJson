@@ -26,6 +26,7 @@ namespace SiteJson.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.Layout = _site.Layout;
             return View(_site);
         }
 
