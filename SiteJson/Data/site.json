@@ -4,13 +4,13 @@
   "Paginas": [
     {
       "Id": 1,
-      "Nome": "Saneamento Básico",
-      "Slug": "saneamento",
+      "Nome": "Pagina - 1",
+      "Slug": "pagina-1",
     },
     {
       "Id": 2,
-      "Nome": "Saúde",
-      "Slug": "saude"
+      "Nome": "Pagina - 2",
+      "Slug": "pagina-2"
     }
   ]
 }
